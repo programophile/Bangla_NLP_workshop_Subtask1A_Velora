@@ -183,13 +183,13 @@ The script will output predictions in the required format for submission.
 
 ## Citation
 
-If you use this code or findings in your research, please cite our ACL 2025 paper:
+If you use this code or findings in your research, please cite (will be updated later):
 
 ```bibtex
 @inproceedings{your-paper-2025,
-  title={Bangla Hate Speech Detection: A Comprehensive Study with BanglaBERT Variants},
+  title={},
   author={Your Name and Co-authors},
-  booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics},
+  booktitle={},
   year={2025}
 }
 ```
