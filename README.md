@@ -1,10 +1,10 @@
-# Bangla Hate Speech Detection: A Comprehensive Study with BanglaBERT Variants
+# Bangla Hate Speech Detection: Multi-Method Evaluation for Hate Speech Classification in Bangla Text
 
-This repository contains the code and resources for the ACL 2025 submission on Bangla Hate Speech Detection using various BanglaBERT-based models. The work focuses on multi-class classification of hate speech in Bangla text, participating in the BLP 2025 Hate Speech Subtask 1A.
+This repository contains the code and resources for the Bnalga NLP Worskshop 2 submission on Bangla Hate Speech Detection using various BanglaBERT-based models. The work focuses on multi-class classification of hate speech in Bangla text, participating in the BLP 2025 Hate Speech Subtask 1A.
 
 ## Abstract
 
-Hate speech detection in low-resource languages like Bangla presents unique challenges due to limited annotated data and linguistic complexities. This study explores multiple variants of BanglaBERT, a pre-trained language model for Bangla, combined with advanced techniques such as hybrid architectures, data augmentation, focal loss, and regularization methods. We evaluate five different approaches on the BLP 2025 Hate Speech dataset, achieving competitive performance in identifying religious hate, sexism, political hate, profane language, abusive content, and non-hate speech.
+Hate speech detection in low-resource languages like Bangla presents unique challenges due to limited annotated data and linguistic complexities. This study explores multiple variants of BanglaBERT, a pre-trained language model for Bangla, combined with advanced techniques such as hybrid architectures, data augmentation, focal loss, and regularization methods. We evaluate five different approaches on the BLP 2025-Banlga NLP Workshop Hate Speech dataset, achieving competitive performance in identifying religious hate, sexism, political hate, profane language, abusive content, and non-hate speech.
 
 ## Repository Structure
 
@@ -21,7 +21,7 @@ Each code directory contains:
 - Jupyter notebook (`.ipynb`) with the complete training and evaluation pipeline
 - `predictor.py` - Python script for inference on test data
 - Dataset files (`subtask_1A.tsv`, `blp25_hatespeech_subtask_1A_test_with_labels.tsv`)
-- `format_checker/` - Directory for format validation scripts
+- `format_checker/` - Directory for cheacking the right format of the generated prediction file
 
 ## Installation
 
@@ -204,6 +204,6 @@ For questions or collaborations, please contact [programophile@gmail.com].
 
 ## Acknowledgments
 
-- BLP 2025 organizers for the hate speech dataset
+- BLP 2025-Bangla NLP Woskshop 2  organizers for the hate speech dataset
 - CSEBUET NLP Group for the BanglaBERT model
 - Hugging Face for the Transformers library
